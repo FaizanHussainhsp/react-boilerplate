@@ -7,7 +7,7 @@ import { store } from "./redux/store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "@mui/material";
-import { theme } from "./themeconfig";
+import { theme } from "./themeconfiguration";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
